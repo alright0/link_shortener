@@ -1,0 +1,1 @@
+docker build -t link_shortener:v0.1  %~dp0

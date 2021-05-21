@@ -1,0 +1,1 @@
+docker run -d -p 5000:5000 link_shortener:v0.1
