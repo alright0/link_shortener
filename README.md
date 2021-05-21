@@ -2,8 +2,12 @@
 Тестовое задание: написать API, которое будет принимать полную ссылку и возвращать сокращенную
 
 
-деплой: <a href="https://git-link-shortner.herokuapp.com/">git-link-shortner.herokuapp.com/</a>
-
+Heroku: <a href="https://git-link-shortner.herokuapp.com/">git-link-shortner.herokuapp.com/</a><br>
+Docker(windows): 
+1. Собрать контейнер compile_container.bat или docker build -t link_shortener:v0.1 /путь/к/папке_содержащей_Docerfile
+2. Запустить образ start_docker.bat или docker run -d -p 5000:5000 link_shortener:v0.1
+<br>
+<br>
 API имеет следующие эндпоинты:
 /api - Принимает POST, DELETE, PUT:
 1. POST - для добавления ссылок в базу и возврат короткой ссылки в ответе.<br>
