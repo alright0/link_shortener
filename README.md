@@ -3,14 +3,14 @@
 
 <b>Требуется написать REST API используя любой удобный фреймворк (предпочтительно flask/DRF/aiohttp).
 API должен сокращать ссылки и предоставлять к ним доступ, а так же давать возможность удаления и т.д.
-Ссылки должны храниться в БД. БД может быть абсолютно любой, SQL/NoSQL.</b>
+Ссылки должны храниться в БД. БД может быть абсолютно любой, SQL/NoSQL.
 
 Необязательная часть, но приветствуется.
-Написать необходимые скрипты, чтоб все разворачивалось через docker-compose.
+Написать необходимые скрипты, чтоб все разворачивалось через docker-compose.</b>
 
 Heroku: <a href="https://git-link-shortner.herokuapp.com/">git-link-shortner.herokuapp.com/</a><br>
 Docker(windows): 
-1. Собрать контейнер compile_container.bat или docker build -t link_shortener:v0.1 /путь/к/папке_содержащей_Docerfile
+1. Собрать контейнер compile_container.bat или docker build -t link_shortener:v0.1 /путь/к/папке_содержащей_Dockerfile
 2. Запустить образ start_docker.bat или docker run -d -p 5000:5000 link_shortener:v0.1
 <br>
 <br>
