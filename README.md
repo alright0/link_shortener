@@ -2,7 +2,7 @@
 Тестовое задание: написать API, которое будет принимать полную ссылку и возвращать сокращенную
 
 
-деплой: git-link-shortner.herokuapp.com/
+деплой: <a href="https://git-link-shortner.herokuapp.com/">git-link-shortner.herokuapp.com/</a>
 
 API имеет следующие эндпоинты:
 /api - Принимает POST, DELETE, PUT:
