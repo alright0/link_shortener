@@ -10,8 +10,8 @@ API должен сокращать ссылки и предоставлять �
 
 Heroku: <a href="https://git-link-shortner.herokuapp.com/">git-link-shortner.herokuapp.com/</a><br>
 Docker(windows): 
-1. Собрать контейнер через compile_container.bat или ``docker build -t link_shortener:v0.1 /путь/к/папке_содержащей_Dockerfile``
-2. Запустить образ через start_docker.bat или ``docker run -d -p 5000:5000 link_shortener:v0.1``
+1. Собрать контейнер через <b>compile_container.bat</b> или ``docker build -t link_shortener:v0.1 /путь/к/папке_содержащей_Dockerfile``
+2. Запустить образ через <b>start_docker.bat/b> или ``docker run -d -p 5000:5000 link_shortener:v0.1``
 <br>
 
 Проверка работоспособности(Docker): 
