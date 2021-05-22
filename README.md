@@ -15,9 +15,9 @@ Docker(windows):
 <br>
 
 Проверка работоспособности(Docker): 
-POST: ``curl --header "Content-Type: application/json" --request POST -d '{"link": "https://yandex.ru/"}'  127.0.0.1:5000/api``
-PUT: ``curl --header "Content-Type: application/json" --request PUT -d '{"link": "https://yandex.ru/", "new_link": "https://pbs.twimg.com/media/DiETscrWAAAigqv.jpg"}'  127.0.0.1:5000/api``
-DELETE ``curl --header "Content-Type: application/json" --request DELETE -d '{"link": "https://pbs.twimg.com/media/DiETscrWAAAigqv.jpg"}'  127.0.0.1:5000/api``
+POST: ``curl --header "Content-Type: application/json" --request POST -d '{"link": "https://yandex.ru/"}'  127.0.0.1:5000/api``<br>
+PUT: ``curl --header "Content-Type: application/json" --request PUT -d '{"link": "https://yandex.ru/", "new_link": "https://pbs.twimg.com/media/DiETscrWAAAigqv.jpg"}'  127.0.0.1:5000/api``<br>
+DELETE ``curl --header "Content-Type: application/json" --request DELETE -d '{"link": "https://pbs.twimg.com/media/DiETscrWAAAigqv.jpg"}'  127.0.0.1:5000/api``<br>
 
 
 <br>
