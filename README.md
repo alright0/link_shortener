@@ -13,6 +13,13 @@ Docker(windows):
 1. Собрать контейнер через compile_container.bat или ``docker build -t link_shortener:v0.1 /путь/к/папке_содержащей_Dockerfile``
 2. Запустить образ через start_docker.bat или ``docker run -d -p 5000:5000 link_shortener:v0.1``
 <br>
+
+Проверка работоспособности(Docker): 
+POST: ``curl --header "Content-Type: application/json" --request POST -d '{"link": "https://yandex.ru/"}'  127.0.0.1:5000/api``
+PUT: ``curl --header "Content-Type: application/json" --request PUT -d '{"link": "https://yandex.ru/", "new_link": "https://pbs.twimg.com/media/DiETscrWAAAigqv.jpg"}'  127.0.0.1:5000/api``
+DELETE ``curl --header "Content-Type: application/json" --request DELETE -d '{"link": "https://pbs.twimg.com/media/DiETscrWAAAigqv.jpg"}'  127.0.0.1:5000/api``
+
+
 <br>
 API имеет следующие эндпоинты:
 /api - Принимает POST, DELETE, PUT:
